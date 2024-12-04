@@ -42,6 +42,10 @@
     font-size: 20pt;
 }
 
+.manual-container h3 {
+    font-size: 18pt;
+}
+
 .manual-container p {
     font-size: 15pt;
 }
@@ -68,4 +72,8 @@
 .Manual a:hover {
     color: #9effec; /* Color del texto cuando el cursor pasa sobre el link */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Añadir sombra al texto */
+}
+
+.specifications {
+    text-align: left;
 }

@@ -26,6 +26,19 @@ const Manual = () => {
                     </a>.
                 </p>
 
+                <p>
+                    Además, para replicar los resultados de este proyecto, es necesario que cumpla con las siguientes especificaciones técnicas.
+                </p>
+
+                <h3>Especificaciones Técnicas</h3>
+                <ul className="specifications">
+                    <li><strong>Procesador:</strong> Intel Core i5 o superior</li>
+                    <li><strong>Memoria RAM:</strong> 32 GB o superior</li>
+                    <li><strong>Sistema Operativo:</strong> Ubuntu 18.04 o superior</li>
+                    <li><strong>Espacio en Disco:</strong> 1 TB o superior</li>
+                    <li><strong>GPU:</strong> Necesaria para OpenMVS (compatible con CUDA)</li>
+                </ul>
+
                 <h2>1. Crear la Imagen Docker</h2>
                 <p>Para configurar el entorno con todas las librerías necesarias:</p>
                 <pre>
@@ -36,6 +49,10 @@ const Manual = () => {
                 <p>
                     <strong>/ruta/a/imagenes:</strong> Ruta local de las imágenes para la reconstrucción.<br />
                     <strong>my_project_image:</strong> Nombre deseado para la imagen Docker.
+                </p>
+
+                <p>
+                    Cabe resaltar que esta serie de pasos es crucial ya que copia las imágenes, que serán usadas para la creación del modelo 3D, a la carpeta <code>images</code> dentro del contenedor Docker.
                 </p>
 
                 <h2>2. Estructura del Proyecto</h2>
