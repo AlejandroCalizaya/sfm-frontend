@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Manual {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100vw;
+    top: 80px;
+
+    bottom: 0;
+    overflow-y: auto;
+
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+    z-index: 1;
+
+    /* background: blue; */
+}
+
+.manual-container {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.manual-container h1 {
+    font-size: 30pt;
+}
+
+.manual-container h2 {
+    font-size: 20pt;
+}
+
+.manual-container p {
+    font-size: 15pt;
+}
+
+.manual-container pre {
+    font-size: 12pt;
+    text-align: left;
+    text-shadow: none;
+
+    white-space: pre-wrap;
+
+    background: #333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Manual a {
+    color: #7ddeff; /* Color de texto principal */
+    text-decoration: none; /* Quitar subrayado */
+    font-weight: bold; /* Poner los links en negrita */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+.Manual a:hover {
+    color: #9effec; /* Color del texto cuando el cursor pasa sobre el link */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Añadir sombra al texto */
+}

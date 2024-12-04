@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Home {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: auto;
+    top: 100px;
+
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+    /* background: red; */
+
+    z-index: 1;
+}
+
+.home-description {
+    width: 500px;
+    height: auto;
+
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    /* background: blue; */
+}
+
+.home-description h1 {
+    font-size: 30pt;
+}
+
+.home-description p,
+.home-result p {
+    font-size: 15pt;
+}
+
+.home-result {
+    width: 500px;
+    height: auto;
+
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.home-result h2 {
+    font-size: 20pt;
+}
+
+.home-result-example {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    width: auto;
+    height: auto;
+    gap: 20px;
+}
+
+.home-result-example video {
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+.home-result-example img {
+    filter: brightness(1.2);
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+}
